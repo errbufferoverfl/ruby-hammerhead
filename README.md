@@ -3,8 +3,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -73,16 +71,16 @@ ablog build && ablog serve
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/errbufferoverfl/repo.svg?style=flat-square
-[contributors-url]: https://github.com/errbufferoverfl/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/errbufferoverfl/repo.svg?style=flat-square
-[forks-url]: https://github.com/errbufferoverfl/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/errbufferoverfl/repo.svg?style=flat-square
-[stars-url]: https://github.com/errbufferoverfl/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/errbufferoverfl/repo.svg?style=flat-square
-[issues-url]: https://github.com/errbufferoverfl/repo/issues
-[license-shield]: https://img.shields.io/github/license/errbufferoverfl/repo.svg?style=flat-square
-[license-url]: https://github.com/errbufferoverfl/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/errbufferoverfl/ruby-hammerhead.svg?style=flat-square
+[contributors-url]: https://github.com/errbufferoverfl/ruby-hammerhead/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/errbufferoverfl/ruby-hammerhead.svg?style=flat-square
+[forks-url]: https://github.com/errbufferoverfl/ruby-hammerhead/network/members
+[stars-shield]: https://img.shields.io/github/stars/errbufferoverfl/ruby-hammerhead.svg?style=flat-square
+[stars-url]: https://github.com/errbufferoverfl/ruby-hammerhead/stargazers
+[issues-shield]: https://img.shields.io/github/issues/errbufferoverfl/ruby-hammerhead.svg?style=flat-square
+[issues-url]: https://github.com/errbufferoverfl/ruby-hammerhead/issues
+[license-shield]: https://img.shields.io/github/license/errbufferoverfl/ruby-hammerhead.svg?style=flat-square
+[license-url]: https://github.com/errbufferoverfl/ruby-hammerhead/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/errbufferoverfl
 [product-screenshot]: imgs/screenshot.png
