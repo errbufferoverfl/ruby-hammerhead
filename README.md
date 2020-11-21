@@ -68,8 +68,14 @@ pipenv install
 ```sh
 ablog build && ablog serve
 ```
+4. Customise the `about.html` file located in `_templates` directory and replace the `logo.png` file with a picture you
+like. If the name is different make sure to update this in the `about.html` file as well!
 
-You can safely remove the following files and directories when you are ready to publish:
+5. While developing your website, I recommend running `ablog clean` before building and serving to make sure you don't accidentally capture artifacts.
+```sh
+ablog clean && ablog build && ablog serve
+```
+6. Once you're happy with everything you can safely remove the following files and directories:
 * imgs/
 * README.md
 
