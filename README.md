@@ -19,7 +19,7 @@ A template repo for setting up your own Sphinx/ablog website using the Pydata Sp
     <a href="https://github.com/errbufferoverfl/ruby-hammerhead"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://www.errbufferoverfl.me">View Demo</a>
+    <a href="https://errbufferoverfl.github.io/ruby-hammerhead/">View Demo</a>
     ·
     <a href="https://github.com/errbufferoverfl/ruby-hammerhead/issues">Report Bug</a>
     ·
