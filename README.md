@@ -32,17 +32,10 @@ A template repo for setting up your own Sphinx/ablog website using the Pydata Sp
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
-
+# About the Project
 [![Product Name Screen Shot][product-screenshot]](https://errbufferoverfl.me)
 
 A template repo for setting up your own Sphinx/ablog website using the Pydata Sphinx Theme.
@@ -50,7 +43,16 @@ A template repo for setting up your own Sphinx/ablog website using the Pydata Sp
 This repo was made so people could easily get started using Sphinx and ablog to hot their own website, on GitHub pages,
 Azure Storage, or a static hosting service of their choice. This repo is part of a series of blog posts I wrote on how to build your website and publish it using Azure DevOps and Azure Storage.
 
+## Built With
+
+* [Sphinx Documentation](https://www.sphinx-doc.org/en/master/index.html)
+* [reStructuredText Primer](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
+* [ablog Documentation](https://ablog.readthedocs.io/)
+* [Pydata Documentation](https://pydata-sphinx-theme.readthedocs.io/en/latest/)
+* [Sphinx Panels Documentation](https://sphinx-panels.readthedocs.io/en/latest/)
+
 <!-- GETTING STARTED -->
+# Getting Started
 
 To get a local copy up and running follow these simple steps.
 
@@ -78,6 +80,11 @@ ablog clean && ablog build && ablog serve
 6. Once you're happy with everything you can safely remove the following files and directories:
 * imgs/
 * README.md
+
+<!-- ACKNOWLEDGEMENTS -->
+# Acknowledgements
+
+* [Chris Holdgraf](https://github.com/choldgraf)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
