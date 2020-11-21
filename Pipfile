@@ -4,6 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+sphinx = "*"
+ablog = "*"
+pydata-sphinx-theme = "*"
+sphinx-panels = "*"
 
 [dev-packages]
 

@@ -69,6 +69,10 @@ pipenv install
 ablog build && ablog serve
 ```
 
+You can safely remove the following files and directories when you are ready to publish:
+* imgs/
+* README.md
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/errbufferoverfl/ruby-hammerhead.svg?style=flat-square
