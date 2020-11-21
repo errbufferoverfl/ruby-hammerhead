@@ -80,6 +80,7 @@ ablog clean && ablog build && ablog serve
 6. Once you're happy with everything you can safely remove the following files and directories:
 * imgs/
 * README.md
+* docs/
 
 <!-- ACKNOWLEDGEMENTS -->
 # Acknowledgements
