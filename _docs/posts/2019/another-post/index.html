@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anyone who laughs is a communist! &#8212; Ruby Hammerhead 1.0 documentation</title>
+    
+  <link rel="stylesheet" href="../../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../../../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../../../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../../_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../../genindex/" />
+    <link rel="search" title="Search" href="../../../search/" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" /> 
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../../../posts/atom.xml"
+  title="Ruby Hammerhead"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main">
+<div class="container-xl">
+
+    <a class="navbar-brand" href="../../../">
+    
+      <p class="title">Ruby Hammerhead</p>
+    
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbar-menu" class="col-lg-9 collapse navbar-collapse">
+      <ul id="navbar-main-elements" class="navbar-nav mr-auto">
+        
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="../../../aboutme/">About Me</a>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="../../../timeline/">Timeline Example</a>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="../../../tab/">Tab Example</a>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="../../../references/">References</a>
+        </li>
+        
+        
+      </ul>
+
+
+      <form class="bd-search d-flex align-items-center" action="../../../search/" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search..." aria-label="Search..." autocomplete="off" >
+</form>
+      
+
+      <ul class="navbar-nav">
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/errbufferoverfl/" target="_blank" rel="noopener">
+              <span><i class="fab fa-github-square"></i></span>
+            </a>
+          </li>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/errbufferoverfl" target="_blank" rel="noopener">
+              <span><i class="fab fa-twitter-square"></i></span>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+          <div class="col-12 col-md-3 bd-sidebar">  
+<h2>
+   
+  05 August 2019 
+</h2>
+
+<ul>
+   
+<li id="author">
+  <span
+    >Author:</span
+  >
+   
+  <a href="../../author/errbufferoverfl/">errbufferoverfl</a>  
+</li>
+   
+<li id="category">
+  <span
+    >Category:</span
+  >
+   
+  <a href="../../category/category-two/">Category Two</a>  
+</li>
+ 
+<li id="tags">
+  <span
+    >Tags: </span
+  >
+   
+  <a href="../../tag/futurama/">futurama</a>   
+  <a href="../../tag/chess/">chess</a>   
+  <a href="../../tag/brig/">brig</a>   
+  <a href="../../tag/bender/">bender</a>  
+</li>
+ 
+</ul>
+
+<h3>
+  <a href="../../">Recent Posts</a>
+</h3>
+<ul>
+   
+  <li>
+    <a href="../../2020/one-most/"
+      >20 July - Are you crazy? I can’t swallow that.</a
+    >
+  </li>
+  
+  <li>
+    <a href="../../2018/post/"
+      >21 November - Ooh, name it after me!</a
+    >
+  </li>
+  
+</ul>
+
+<h3>
+  <a href="../../archive/">Archives</a>
+</h3>
+<ul>
+   
+  <li>
+    <a href="../../2020/">2020 (1)</a>
+  </li>
+    
+  <li>
+    <a href="../">2019 (1)</a>
+  </li>
+    
+  <li>
+    <a href="../../2018/">2018 (1)</a>
+  </li>
+   
+</ul>
+
+          </div>
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+              
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#i-was-having-the-most-wonderful-dream-except-you-were-there-and-you-were-there-and-you-were-there" class="nav-link">I was having the most wonderful dream. Except you were there, and you were there, and you were there!</a><ul class="nav section-nav flex-column">
+                
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#soon-enough" class="nav-link">Soon enough.</a>
+        </li>
+    
+            </ul>
+        </li>
+    
+    </ul>
+</nav>
+
+
+              
+          </div>
+          
+
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                 <div class="section" id="anyone-who-laughs-is-a-communist">
+<h1>Anyone who laughs is a communist!<a class="headerlink" href="#anyone-who-laughs-is-a-communist" title="Permalink to this headline">¶</a></h1>
+<p>Bender, hurry! This fuel’s expensive! Also, we’re dying! Throw her in the brig. But, like most politicians, he promised more than he could deliver. And then the battle’s not so bad? Yep, I remember. They came in last at the Olympics, then retired to promote alcoholic beverages!</p>
+<p>The alien mothership is in orbit here. __If we can hit that bullseye, the rest of the dominoes will fall like a house of cards.__ <em>Checkmate.</em> I usually try to keep my sadness pent up inside where it can fester quietly as a mental illness.</p>
+<div class="section" id="i-was-having-the-most-wonderful-dream-except-you-were-there-and-you-were-there-and-you-were-there">
+<h2>I was having the most wonderful dream. Except you were there, and you were there, and you were there!<a class="headerlink" href="#i-was-having-the-most-wonderful-dream-except-you-were-there-and-you-were-there-and-you-were-there" title="Permalink to this headline">¶</a></h2>
+<p>Your best is an idiot! And then the battle’s not so bad? Wow! A superpowers drug you can just rub onto your skin? You’d think it would be something you’d have to freebase. Leela, are you alright? You got wanged on the head.</p>
+<ol class="arabic simple">
+<li><p>I usually try to keep my sadness pent up inside where it can fester quietly as a mental illness.</p></li>
+<li><p>Bite my shiny metal ass.</p></li>
+<li><p>No! The cat shelter’s on to me.</p></li>
+</ol>
+<div class="section" id="soon-enough">
+<h3>Soon enough.<a class="headerlink" href="#soon-enough" title="Permalink to this headline">¶</a></h3>
+<p>I could if you hadn’t turned on the light and shut off my stereo. You mean while I’m sleeping in it? Whoa a real live robot; or is that some kind of cheesy New Year’s costume? When the lights go out, it’s nobody’s business what goes on between two consenting adults.</p>
+<ul class="simple">
+<li><p>Kif, I have mated with a woman. Inform the men.</p></li>
+<li><p>Is the Space Pope reptilian!?</p></li>
+<li><p>I usually try to keep my sadness pent up inside where it can fester quietly as a mental illness.</p></li>
+</ul>
+<p>You’re going to do his laundry? Oh, but you can. But you may have to metaphorically make a deal with the devil. And by “devil”, I mean Robot Devil. And by “metaphorically”, I mean get your coat. Leela, Bender, we’re going grave robbing.</p>
+<p>No! I want to live! There are still too many things I don’t own! I’ll get my kit! You know the worst thing about being a slave? They make you work, but they don’t pay you or let you go. And so we say goodbye to our beloved pet, Nibbler, who’s gone to a place where I, too, hope one day to go. The toilet.</p>
+<p>Well, thanks to the Internet, I’m now bored with sex. Is there a place on the web that panders to my lust for violence? OK, if everyone’s finished being stupid. Shinier than yours, meatbag. So, how ‘bout them Knicks?</p>
+<p>Look, everyone wants to be like Germany, but do we really have the pure strength of ‘will’? Quite possible. We live long and are celebrated poopers. Is today’s hectic lifestyle making you tense and impatient?</p>
+<p>I could if you hadn’t turned on the light and shut off my stereo. Too much work. Let’s burn it and say we dumped it in the sewer. Leela, are you alright? You got wanged on the head. No, I’m Santa Claus!</p>
+<p>Enough about your promiscuous mother, Hermes! We have bigger problems. Goodbye, friends. I never thought I’d die like this. But I always really hoped. Please, Don-Bot… look into your hard drive, and open your mercy file!</p>
+<p>Hi, I’m a naughty nurse, and I really need someone to talk to. $9.95 a minute. Throw her in the brig. Bender, hurry! This fuel’s expensive! Also, we’re dying! Oh Leela! You’re the only person I could turn to; you’re the only person who ever loved me.</p>
+<p>Spare me your space age technobabble, Attila the Hun! Well I’da done better, but it’s plum hard pleading a case while awaiting trial for that there incompetence. And so we say goodbye to our beloved pet, Nibbler, who’s gone to a place where I, too, hope one day to go. The toilet.</p>
+<p>The alien mothership is in orbit here. If we can hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate. I didn’t ask for a completely reasonable excuse! I asked you to get busy!</p>
+<p>Oh yeah, good luck with that. Oh yeah, good luck with that. Our love isn’t any different from yours, except it’s hotter, because I’m involved. And until then, I can never die?</p>
+<p>It’s toe-tappingly tragic! If rubbin’ frozen dirt in your crotch is wrong, hey I don’t wanna be right. Spare me your space age technobabble, Attila the Hun! You’ve killed me! Oh, you’ve killed me! Wow, you got that off the Internet? In my day, the Internet was only used to download pornography.</p>
+</div>
+</div>
+</div>
+
+<div class="section">
+     
+<div class="section">
+  <span style="float: left">
+     Previous:
+    
+    <a href="../../2018/post/">
+       Ooh, name it after me!
+    </a>
+    
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right">
+     Next: 
+    <a href="../../2020/one-most/">
+      Are you crazy? I can’t swallow that. 
+    </a>
+    
+  </span>
+</div>
+  
+</div>
+
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+
+              </div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+
+    
+  <script src="../../../_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    <p>
+          &copy; Copyright 2020, errbufferoverfl.<br/>
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.3.1.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
