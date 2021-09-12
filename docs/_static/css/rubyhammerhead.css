@@ -1,0 +1,54 @@
+/* Sidebar for blog archive / each post */
+ul.ablog-archive {
+    padding-left: 0px;
+}
+
+.bd-sidebar ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.bd-sidebar li {
+    padding-left: 0;
+    padding-bottom: .5em;
+}
+.bd-sidebar {
+    height: auto;
+}
+
+/* sidebar-nav.html */
+.caption-text,
+.bd-sidebar > h2,
+.bd-sidebar > h3 {
+    font-size: 1em;
+    color: rgba(var(--pst-color-paragraph),1);
+    font-weight: bold;
+    font-variant-caps: all-petite-caps;
+}
+
+/* In-page post lists */
+ul.postlist {
+    padding-left: 0;
+}
+
+ul.postlist > li > p:first-child {
+    font-size: 1.5em;
+}
+
+ul.postlist li + li {
+    margin-top: 2em;
+}
+
+ul.postlist li > p > a {
+    font-style: normal;
+    font-size: 1em;
+}
+
+.navbar-brand{
+    height: unset;
+}
+
+.navbar-brand > p {
+    margin-bottom: unset;
+}
+

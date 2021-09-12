@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Getting Started" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://errbufferoverfl.github.io/getting-started.html" />
+  <meta property="og:description" content="Getting yourself setup with Sphinx and ablog is pretty straight-forward using this repo! By default this installation will get you setup with a reStructuredText and Markdown parser, an extension fo..." />
+  <meta property="og:image" content="https://errbufferoverfl.github.io/_static/opengraph.png" />
+  <meta property="og:image:alt" content="" />
+  
+    <title>Getting Started &#8212; Ruby Hammerhead</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.d53ab927f7bad3eaa42da95908504b10.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/rubyhammerhead.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/design-tabs.js"></script>
+    <script src="../_static/js/rubyhammerhead.js"></script>
+    <link rel="canonical" href="https://errbufferoverfl.github.io/getting-started.html" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="References &amp; Credits" href="../references/" />
+    <link rel="prev" title="Posts" href="../posts/" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+     
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../posts/atom.xml"
+  title="Ruby Hammerhead"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="../">
+<p class="title">Ruby Hammerhead</p>
+</a>
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/errbufferoverfl/" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/errbufferoverfl" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../search/" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search..." aria-label="Search..." autocomplete="off" >
+</form><p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../posts/">Demo Blog</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../references/">References &amp; Credits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog/">Changelog</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Kitchen Sink</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../kitchen-sink/">About the Kitchen Sink</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kitchen-sink/paragraph-level-markup/">Paragraph Level Markup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kitchen-sink/lists-and-tables/">Lists &amp; Tables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kitchen-sink/long/">Really Long Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kitchen-sink/structure/">Structural Elements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kitchen-sink/sphinx-design/">Sphinx Design</a></li>
+</ul>
+
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#making-changes">
+   Making Changes
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                 <div class="section" id="getting-started">
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<p>Getting yourself setup with Sphinx and ablog is pretty straight-forward using this repo!</p>
+<p>By default this installation will get you setup with a reStructuredText and Markdown parser, an extension for creating panels, grids, dropdowns and more, an extension so users can easily copy and paste your code snippets, as well as extension to generate <a class="reference external" href="https://ogp.me/">OpenGraph metadata</a>. For more information about each of these components’ checkout the <a class="reference external" href="/references/">References</a>.</p>
+<p>The first thing you’ll need to do is clone this repository locally using Git:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">errbufferoverfl</span><span class="o">/</span><span class="n">ruby</span><span class="o">-</span><span class="n">hammerhead</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+<p>Next you’ll need to install all the dependencies which are managed by Pipenv:</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Ruby Hammerhead uses Python 3.9, if you are using multiple versions of Python, I’d recommend checking out <a class="reference external" href="https://github.com/asdf-vm/asdf">asdf</a> an extendable version manager with support for Python, Ruby, Node.js, Elixir, Erlang &amp; more.</p>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pipenv</span> <span class="n">install</span>
+</pre></div>
+</div>
+<p>Run the default build, which will create a website that looks exactly like <a class="reference external" href="https://errbufferoverfl.github.io/ruby-hammerhead/">the demo site</a>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ablog</span> <span class="n">build</span> <span class="o">&amp;&amp;</span> <span class="n">ablog</span> <span class="n">serve</span>
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Many of the files located in kitchen sink include broken references, citations and hyperlinks to demonstrate what things will look like if incorrectly configured. If you’re running your build for the first time and haven’t deleted this directory, you can expect the following errors:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">ruby</span><span class="o">-</span><span class="n">hammerhead</span><span class="o">/</span><span class="n">kitchen</span><span class="o">-</span><span class="n">sink</span><span class="o">/</span><span class="n">paragraph</span><span class="o">-</span><span class="n">level</span><span class="o">-</span><span class="n">markup</span><span class="o">.</span><span class="n">rst</span><span class="p">:</span><span class="mi">264</span><span class="p">:</span> <span class="n">WARNING</span><span class="p">:</span> <span class="n">Footnote</span> <span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">referenced</span><span class="o">.</span>
+<span class="o">/</span><span class="n">ruby</span><span class="o">-</span><span class="n">hammerhead</span><span class="o">/</span><span class="n">kitchen</span><span class="o">-</span><span class="n">sink</span><span class="o">/</span><span class="n">paragraph</span><span class="o">-</span><span class="n">level</span><span class="o">-</span><span class="n">markup</span><span class="o">.</span><span class="n">rst</span><span class="p">:</span><span class="mi">270</span><span class="p">:</span> <span class="n">WARNING</span><span class="p">:</span> <span class="n">Footnote</span> <span class="p">[</span><span class="mi">11</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">referenced</span><span class="o">.</span>
+<span class="o">/</span><span class="n">ruby</span><span class="o">-</span><span class="n">hammerhead</span><span class="o">/</span><span class="n">kitchen</span><span class="o">-</span><span class="n">sink</span><span class="o">/</span><span class="n">paragraph</span><span class="o">-</span><span class="n">level</span><span class="o">-</span><span class="n">markup</span><span class="o">.</span><span class="n">rst</span><span class="p">:</span><span class="mi">15</span><span class="p">:</span> <span class="n">WARNING</span><span class="p">:</span> <span class="n">Undefined</span> <span class="n">substitution</span> <span class="n">referenced</span><span class="p">:</span> <span class="s2">&quot;problematic&quot;</span><span class="o">.</span>
+<span class="o">/</span><span class="n">ruby</span><span class="o">-</span><span class="n">hammerhead</span><span class="o">/</span><span class="n">kitchen</span><span class="o">-</span><span class="n">sink</span><span class="o">/</span><span class="n">paragraph</span><span class="o">-</span><span class="n">level</span><span class="o">-</span><span class="n">markup</span><span class="o">.</span><span class="n">rst</span><span class="p">:</span><span class="mi">264</span><span class="p">:</span> <span class="n">WARNING</span><span class="p">:</span> <span class="n">Unknown</span> <span class="n">target</span> <span class="n">name</span><span class="p">:</span> <span class="s2">&quot;5&quot;</span><span class="o">.</span>
+<span class="o">/</span><span class="n">ruby</span><span class="o">-</span><span class="n">hammerhead</span><span class="o">/</span><span class="n">kitchen</span><span class="o">-</span><span class="n">sink</span><span class="o">/</span><span class="n">paragraph</span><span class="o">-</span><span class="n">level</span><span class="o">-</span><span class="n">markup</span><span class="o">.</span><span class="n">rst</span><span class="p">:</span><span class="mi">307</span><span class="p">:</span> <span class="n">WARNING</span><span class="p">:</span> <span class="n">Unknown</span> <span class="n">target</span> <span class="n">name</span><span class="p">:</span> <span class="s2">&quot;body elements&quot;</span><span class="o">.</span>
+<span class="o">/</span><span class="n">ruby</span><span class="o">-</span><span class="n">hammerhead</span><span class="o">/</span><span class="n">kitchen</span><span class="o">-</span><span class="n">sink</span><span class="o">/</span><span class="n">paragraph</span><span class="o">-</span><span class="n">level</span><span class="o">-</span><span class="n">markup</span><span class="o">.</span><span class="n">rst</span><span class="p">:</span><span class="mi">318</span><span class="p">:</span> <span class="n">WARNING</span><span class="p">:</span> <span class="n">Unknown</span> <span class="n">target</span> <span class="n">name</span><span class="p">:</span> <span class="s2">&quot;hyperlink reference without a target&quot;</span><span class="o">.</span>
+<span class="o">/</span><span class="n">ruby</span><span class="o">-</span><span class="n">hammerhead</span><span class="o">/</span><span class="n">kitchen</span><span class="o">-</span><span class="n">sink</span><span class="o">/</span><span class="n">paragraph</span><span class="o">-</span><span class="n">level</span><span class="o">-</span><span class="n">markup</span><span class="o">.</span><span class="n">rst</span><span class="p">:</span><span class="mi">278</span><span class="p">:</span> <span class="n">WARNING</span><span class="p">:</span> <span class="n">citation</span> <span class="ow">not</span> <span class="n">found</span><span class="p">:</span> <span class="n">nonexistent</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="making-changes">
+<h2>Making Changes<a class="headerlink" href="#making-changes" title="Permalink to this headline">¶</a></h2>
+<p>While developing your blog &amp; making changes, I recommend running <code class="code docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">clean</span></code> before building and serving to make sure you don’t accidentally capture artifacts.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ablog</span> <span class="n">clean</span> <span class="o">&amp;&amp;</span> <span class="n">ablog</span> <span class="n">build</span> <span class="o">&amp;&amp;</span> <span class="n">ablog</span> <span class="n">serve</span>
+</pre></div>
+</div>
+<p>You can also run <code class="code docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">clean</span> <span class="pre">-D</span></code> which does a deep clean, removing cached environment and doctree files.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ablog</span> <span class="n">clean</span> <span class="o">-</span><span class="n">D</span> <span class="o">&amp;&amp;</span> <span class="n">ablog</span> <span class="n">build</span> <span class="o">&amp;&amp;</span> <span class="n">ablog</span> <span class="n">serve</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+<div class="section">
+   
+</div>
+
+              </div>
+              
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2021, errbufferoverfl.<br/>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.1.2.<br/>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="last-updated">
+Last updated on Sep 12, 2021.<br/>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

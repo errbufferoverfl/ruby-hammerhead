@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://errbufferoverfl.github.io/</id>
+  <title>Ruby Hammerhead</title>
+  <updated>2021-09-12T09:50:19.513552+00:00</updated>
+  <link href="https://errbufferoverfl.github.io/"/>
+  <link href="https://errbufferoverfl.github.io/posts/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
+  <entry>
+    <id>https://errbufferoverfl.github.io/posts/2018/post/</id>
+    <title>Ooh, name it after me!</title>
+    <updated>2018-11-21T00:00:00+11:00</updated>
+    <author>
+      <name>errbufferoverfl</name>
+    </author>
+    <content type="html">&lt;div class="section" id="ooh-name-it-after-me"&gt;
+
+&lt;p&gt;I’ll get my kit! That’s not soon enough! Anyone who laughs is a communist! I’m a thing.&lt;/p&gt;
+&lt;p&gt;I feel like I was mauled by Jesus. Doomsday device? Ah, now the ball’s in Farnsworth’s court! _Yes._ &lt;em&gt;You gave me a dollar and some candy.&lt;/em&gt; You’ll have all the Slurm you can drink when you’re partying with Slurms McKenzie!&lt;/p&gt;
+&lt;div class="section" id="why-would-i-want-to-know-that"&gt;
+&lt;h2&gt;Why would I want to know that?&lt;/h2&gt;
+&lt;p&gt;Say what? Wow! A superpowers drug you can just rub onto your skin? You’d think it would be something you’d have to freebase. I could if you hadn’t turned on the light and shut off my stereo. I meant ‘physically’. Look, perhaps you could let me work for a little food? I could clean the floors or paint a fence, or service you sexually?&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;p&gt;Wow! A superpowers drug you can just rub onto your skin? You’d think it would be something you’d have to freebase.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When the lights go out, it’s nobody’s business what goes on between two consenting adults.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;She also liked to shut up!&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="section" id="yes-except-the-dave-matthews-band-doesn-t-rock"&gt;
+&lt;h3&gt;Yes, except the Dave Matthews Band doesn’t rock.&lt;/h3&gt;
+&lt;p&gt;Shut up and get to the point! Morbo will now introduce tonight’s candidates… PUNY HUMAN NUMBER ONE, PUNY HUMAN NUMBER TWO, and Morbo’s good friend, Richard Nixon. Ok, we’ll go deliver this crate like professionals, and then we’ll go ride the bumper cars.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;And why did ‘I’ have to take a cab?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I barely knew Philip, but as a clergyman I have no problem telling his most intimate friends all about him.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Whoa a real live robot; or is that some kind of cheesy New Year’s costume?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then throw her in the laundry room, which will hereafter be referred to as “the brig”. Ven ve voke up, ve had zese wodies. I saw you with those two “ladies of the evening” at Elzars. Explain that. Ah, computer dating. It’s like pimping, but you rarely have to use the phrase “upside your head.”&lt;/p&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="hll"&gt;&lt;span class="linenos"&gt; 1&lt;/span&gt;&lt;span class="c1"&gt;# Python program to shuffle a deck of card&lt;/span&gt;
+&lt;/span&gt;&lt;span class="linenos"&gt; 2&lt;/span&gt;
+&lt;span class="linenos"&gt; 3&lt;/span&gt;&lt;span class="c1"&gt;# importing modules&lt;/span&gt;
+&lt;span class="linenos"&gt; 4&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nn"&gt;random&lt;/span&gt;
+&lt;span class="hll"&gt;&lt;span class="linenos"&gt; 5&lt;/span&gt;
+&lt;/span&gt;&lt;span class="hll"&gt;&lt;span class="linenos"&gt; 6&lt;/span&gt;&lt;span class="c1"&gt;# make a deck of cards&lt;/span&gt;
+&lt;/span&gt;&lt;span class="linenos"&gt; 7&lt;/span&gt;&lt;span class="n"&gt;deck&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;itertools&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;product&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="p"&gt;),[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Spade&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Heart&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Diamond&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Club&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]))&lt;/span&gt;
+&lt;span class="linenos"&gt; 8&lt;/span&gt;
+&lt;span class="linenos"&gt; 9&lt;/span&gt;&lt;span class="c1"&gt;# shuffle the cards&lt;/span&gt;
+&lt;span class="hll"&gt;&lt;span class="linenos"&gt;10&lt;/span&gt;&lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;shuffle&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;deck&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;span class="linenos"&gt;11&lt;/span&gt;
+&lt;span class="linenos"&gt;12&lt;/span&gt;&lt;span class="c1"&gt;# draw five cards&lt;/span&gt;
+&lt;span class="linenos"&gt;13&lt;/span&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;You got:&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="linenos"&gt;14&lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;span class="linenos"&gt;15&lt;/span&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;deck&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;of&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;deck&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Interesting. No, wait, the other thing: tedious. Bender, you risked your life to save me! Is the Space Pope reptilian!? Shinier than yours, meatbag.&lt;/p&gt;
+&lt;p&gt;When the lights go out, it’s nobody’s business what goes on between two consenting adults. I just told you! You’ve killed me! Hey, you add a one and two zeros to that or we walk! Meh.&lt;/p&gt;
+&lt;p&gt;I’m a thing. It’s okay, Bender. I like cooking too. I daresay that Fry has discovered the smelliest object in the known universe! Kids don’t turn rotten just from watching TV.&lt;/p&gt;
+&lt;p&gt;That’s right, baby. I ain’t your loverboy Flexo, the guy you love so much. You even love anyone pretending to be him! Ask her how her day was. Wow, you got that off the Internet? In my day, the Internet was only used to download pornography.&lt;/p&gt;
+&lt;p&gt;You know, I was God once. It must be wonderful. And then the battle’s not so bad? Daylight and everything. Anyone who laughs is a communist!&lt;/p&gt;
+&lt;p&gt;With gusto. I had more, but you go ahead. Leela’s gonna kill me. Now that the, uh, garbage ball is in space, Doctor, perhaps you can help me with my sexual inhibitions?&lt;/p&gt;
+&lt;p&gt;I wish! It’s a nickel. Bender! Ship! Stop bickering or I’m going to come back there and change your opinions manually! And from now on you’re all named Bender Jr. There, now he’s trapped in a book I wrote: a crummy world of plot holes and spelling errors!&lt;/p&gt;
+&lt;p&gt;And from now on you’re all named Bender Jr. Eeeee! Now say “nuclear wessels”! Fry! Stay back! He’s too powerful! Interesting. No, wait, the other thing: tedious. Or a guy who burns down a bar for the insurance money!&lt;/p&gt;
+&lt;p&gt;Does anybody else feel jealous and aroused and worried? Now, now. Perfectly symmetrical violence never solved anything. Check it out, y’all. Everyone who was invited is here. You know the worst thing about being a slave? They make you work, but they don’t pay you or let you go.&lt;/p&gt;
+&lt;p&gt;Does anybody else feel jealous and aroused and worried? Take me to your leader! Then throw her in the laundry room, which will hereafter be referred to as “the brig”. Daddy Bender, we’re hungry.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://errbufferoverfl.github.io/posts/2018/post/" rel="alternate"/>
+    <summary>I’ll get my kit! That’s not soon enough! Anyone who laughs is a communist! I’m a thing.</summary>
+    <category term="futurama" label="futurama"/>
+    <category term="candy" label="candy"/>
+    <category term="laughing" label="laughing"/>
+    <category term="example" label="example"/>
+    <published>2018-11-21T00:00:00+11:00</published>
+  </entry>
+  <entry>
+    <id>https://errbufferoverfl.github.io/posts/2019/another-post/</id>
+    <title>Anyone who laughs is a communist!</title>
+    <updated>2019-08-05T00:00:00+10:00</updated>
+    <author>
+      <name>errbufferoverfl</name>
+    </author>
+    <content type="html">&lt;div class="section" id="anyone-who-laughs-is-a-communist"&gt;
+
+&lt;p&gt;Bender, hurry! This fuel’s expensive! Also, we’re dying! Throw her in the brig. But, like most politicians, he promised more than he could deliver. And then the battle’s not so bad? Yep, I remember. They came in last at the Olympics, then retired to promote alcoholic beverages!&lt;/p&gt;
+&lt;p&gt;The alien mothership is in orbit here. __If we can hit that bullseye, the rest of the dominoes will fall like a house of cards.__ &lt;em&gt;Checkmate.&lt;/em&gt; I usually try to keep my sadness pent up inside where it can fester quietly as a mental illness.&lt;/p&gt;
+&lt;div class="section" id="i-was-having-the-most-wonderful-dream-except-you-were-there-and-you-were-there-and-you-were-there"&gt;
+&lt;h2&gt;I was having the most wonderful dream. Except you were there, and you were there, and you were there!&lt;/h2&gt;
+&lt;p&gt;Your best is an idiot! And then the battle’s not so bad? Wow! A superpowers drug you can just rub onto your skin? You’d think it would be something you’d have to freebase. Leela, are you alright? You got wanged on the head.&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;p&gt;I usually try to keep my sadness pent up inside where it can fester quietly as a mental illness.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Bite my shiny metal ass.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;No! The cat shelter’s on to me.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="section" id="soon-enough"&gt;
+&lt;h3&gt;Soon enough.&lt;/h3&gt;
+&lt;p&gt;I could if you hadn’t turned on the light and shut off my stereo. You mean while I’m sleeping in it? Whoa a real live robot; or is that some kind of cheesy New Year’s costume? When the lights go out, it’s nobody’s business what goes on between two consenting adults.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Kif, I have mated with a woman. Inform the men.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Is the Space Pope reptilian!?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I usually try to keep my sadness pent up inside where it can fester quietly as a mental illness.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You’re going to do his laundry? Oh, but you can. But you may have to metaphorically make a deal with the devil. And by “devil”, I mean Robot Devil. And by “metaphorically”, I mean get your coat. Leela, Bender, we’re going grave robbing.&lt;/p&gt;
+&lt;p&gt;No! I want to live! There are still too many things I don’t own! I’ll get my kit! You know the worst thing about being a slave? They make you work, but they don’t pay you or let you go. And so we say goodbye to our beloved pet, Nibbler, who’s gone to a place where I, too, hope one day to go. The toilet.&lt;/p&gt;
+&lt;p&gt;Well, thanks to the Internet, I’m now bored with sex. Is there a place on the web that panders to my lust for violence? OK, if everyone’s finished being stupid. Shinier than yours, meatbag. So, how ‘bout them Knicks?&lt;/p&gt;
+&lt;p&gt;Look, everyone wants to be like Germany, but do we really have the pure strength of ‘will’? Quite possible. We live long and are celebrated poopers. Is today’s hectic lifestyle making you tense and impatient?&lt;/p&gt;
+&lt;p&gt;I could if you hadn’t turned on the light and shut off my stereo. Too much work. Let’s burn it and say we dumped it in the sewer. Leela, are you alright? You got wanged on the head. No, I’m Santa Claus!&lt;/p&gt;
+&lt;p&gt;Enough about your promiscuous mother, Hermes! We have bigger problems. Goodbye, friends. I never thought I’d die like this. But I always really hoped. Please, Don-Bot… look into your hard drive, and open your mercy file!&lt;/p&gt;
+&lt;p&gt;Hi, I’m a naughty nurse, and I really need someone to talk to. $9.95 a minute. Throw her in the brig. Bender, hurry! This fuel’s expensive! Also, we’re dying! Oh Leela! You’re the only person I could turn to; you’re the only person who ever loved me.&lt;/p&gt;
+&lt;p&gt;Spare me your space age technobabble, Attila the Hun! Well I’da done better, but it’s plum hard pleading a case while awaiting trial for that there incompetence. And so we say goodbye to our beloved pet, Nibbler, who’s gone to a place where I, too, hope one day to go. The toilet.&lt;/p&gt;
+&lt;p&gt;The alien mothership is in orbit here. If we can hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate. I didn’t ask for a completely reasonable excuse! I asked you to get busy!&lt;/p&gt;
+&lt;p&gt;Oh yeah, good luck with that. Oh yeah, good luck with that. Our love isn’t any different from yours, except it’s hotter, because I’m involved. And until then, I can never die?&lt;/p&gt;
+&lt;p&gt;It’s toe-tappingly tragic! If rubbin’ frozen dirt in your crotch is wrong, hey I don’t wanna be right. Spare me your space age technobabble, Attila the Hun! You’ve killed me! Oh, you’ve killed me! Wow, you got that off the Internet? In my day, the Internet was only used to download pornography.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://errbufferoverfl.github.io/posts/2019/another-post/" rel="alternate"/>
+    <summary>Bender, hurry! This fuel’s expensive! Also, we’re dying! Throw her in the brig. But, like most politicians, he promised more than he could deliver. And then the battle’s not so bad? Yep, I remember. They came in last at the Olympics, then retired to promote alcoholic beverages!</summary>
+    <category term="futurama" label="futurama"/>
+    <category term="chess" label="chess"/>
+    <category term="brig" label="brig"/>
+    <category term="bender" label="bender"/>
+    <published>2019-08-05T00:00:00+10:00</published>
+  </entry>
+  <entry>
+    <id>https://errbufferoverfl.github.io/posts/2020/one-most/</id>
+    <title>Are you crazy? I can’t swallow that.</title>
+    <updated>2020-07-20T00:00:00+10:00</updated>
+    <author>
+      <name>errbufferoverfl</name>
+    </author>
+    <content type="html">&lt;div class="section" id="are-you-crazy-i-can-t-swallow-that"&gt;
+
+&lt;p&gt;Now what? Humans dating robots is sick. You people wonder why I’m still single? It’s ‘cause all the fine robot sisters are dating humans! Bender, being God isn’t easy. If you do too much, people get dependent on you, and if you do nothing, they lose hope. You have to use a light touch. Like a safecracker, or a pickpocket.&lt;/p&gt;
+&lt;p&gt;Tell them I hate them. Spare me your space age technobabble, Attila the Hun! You mean while I’m sleeping in it? __Ummm…to eBay?__ &lt;em&gt;No!&lt;/em&gt; The cat shelter’s on to me.&lt;/p&gt;
+&lt;div class="section" id="that-s-a-popular-name-today-little-e-big-b"&gt;
+&lt;h2&gt;That’s a popular name today. Little “e”, big “B”?&lt;/h2&gt;
+&lt;p&gt;Large bet on myself in round one. Yes! In your face, Gandhi! With a warning label this big, you know they gotta be fun! And so we say goodbye to our beloved pet, Nibbler, who’s gone to a place where I, too, hope one day to go. The toilet.&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;p&gt;But I’ve never been to the moon!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You’re going to do his laundry?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You, minion. Lift my arm. AFTER HIM!&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="section" id="moving-along"&gt;
+&lt;h3&gt;Moving along…&lt;/h3&gt;
+&lt;p&gt;I guess because my parents keep telling me to be more ladylike. As though! Oh, I always feared he might run off like this. Why, why, why didn’t I break his legs? Why, those are the Grunka-Lunkas! They work here in the Slurm factory.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Oh Leela! You’re the only person I could turn to; you’re the only person who ever loved me.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;OK, this has gotta stop. I’m going to remind Fry of his humanity the way only a woman can.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Okay, it’s 500 dollars, you have no choice of carrier, the battery can’t hold the charge and the reception isn’t very…&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kif, I have mated with a woman. Inform the men. Quite possible. We live long and are celebrated poopers. Look, last night was a mistake. Yes, if you make it look like an electrical fire. When you do things right, people won’t be sure you’ve done anything at all.&lt;/p&gt;
+&lt;p&gt;That’s the ONLY thing about being a slave. Check it out, y’all. Everyone who was invited is here. Hey! I’m a porno-dealing monster, what do I care what you think? For the last time, I don’t like lilacs! Your ‘first’ wife was the one who liked lilacs!&lt;/p&gt;
+&lt;p&gt;Oh, how awful. Did he at least die painlessly? …To shreds, you say. Well, how is his wife holding up? …To shreds, you say. Why did you bring us here? No, I’m Santa Claus! Say what?&lt;/p&gt;
+&lt;p&gt;It doesn’t look so shiny to me. Daylight and everything. I don’t ‘need’ to drink. I can quit anytime I want! Well, then good news! It’s a suppository.&lt;/p&gt;
+&lt;p&gt;What are their names? Ugh, it’s filthy! Why not create a National Endowment for Strip Clubs while we’re at it? We’ll need to have a look inside you with this camera. They’re like sex, except I’m having them!&lt;/p&gt;
+&lt;p&gt;Tell her you just want to talk. It has nothing to do with mating. Stop it, stop it. It’s fine. I will ‘destroy’ you! I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.&lt;/p&gt;
+&lt;p&gt;Tell them I hate them. Soon enough. That’s the ONLY thing about being a slave. Yeah, I do that with my stupidness.&lt;/p&gt;
+&lt;p&gt;I am Singing Wind, Chief of the Martians. Yeah, and if you were the pope they’d be all, “Straighten your pope hat.” And “Put on your good vestments.” You, a bobsleder!? That I’d like to see! Stop! Don’t shoot fire stick in space canoe! Cause explosive decompression!&lt;/p&gt;
+&lt;p&gt;I’ll tell them you went down prying the wedding ring off his cold, dead finger. No. We’re on the top. Yep, I remember. They came in last at the Olympics, then retired to promote alcoholic beverages! There’s one way and only one way to determine if an animal is intelligent. Dissect its brain!&lt;/p&gt;
+&lt;p&gt;In your time, yes, but nowadays shut up! Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for their stemcells. Oh Leela! You’re the only person I could turn to; you’re the only person who ever loved me.&lt;/p&gt;
+&lt;p&gt;You, a bobsleder!? That I’d like to see! For the last time, I don’t like lilacs! Your ‘first’ wife was the one who liked lilacs! What kind of a father would I be if I said no? Oh yeah, good luck with that.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://errbufferoverfl.github.io/posts/2020/one-most/" rel="alternate"/>
+    <summary>Now what? Humans dating robots is sick. You people wonder why I’m still single? It’s ‘cause all the fine robot sisters are dating humans! Bender, being God isn’t easy. If you do too much, people get dependent on you, and if you do nothing, they lose hope. You have to use a light touch. Like a safecracker, or a pickpocket.</summary>
+    <category term="futurama" label="futurama"/>
+    <category term="humans" label="humans"/>
+    <category term="dating" label="dating"/>
+    <category term="bender" label="bender"/>
+    <published>2020-07-20T00:00:00+10:00</published>
+  </entry>
+</feed>
