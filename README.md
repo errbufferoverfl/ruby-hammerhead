@@ -8,18 +8,16 @@
 <br />
 <p align="center">
   <a href="https://github.com/errbufferoverfl/ruby-hammerhead">
-    <img src="imgs/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
-
   <h3 align="center">Ruby Hammerhead</h3>
-
-  <p align="center">
-A template repo for setting up your own Sphinx/ablog website using the Pydata Sphinx Theme.
-    <br />
+<p align="center">
+A template repository for setting up your own Sphinx/ablog website using the Pydata Sphinx Theme.
+    <br/>
     <a href="https://github.com/errbufferoverfl/ruby-hammerhead"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://www.errbufferoverfl.me">View Demo</a>
+    <br/>
+    <br/>
+    <a href="https://errbufferoverfl.github.io/ruby-hammerhead/">View Demo</a>
     ·
     <a href="https://github.com/errbufferoverfl/ruby-hammerhead/issues">Report Bug</a>
     ·
@@ -32,16 +30,16 @@ A template repo for setting up your own Sphinx/ablog website using the Pydata Sp
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
+  * [Making Changes](#making-changes)
 * [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 # About the Project
-[![Product Name Screen Shot][product-screenshot]](https://errbufferoverfl.me)
+[![Product Name Screen Shot][product-screenshot]](https://errbufferoverfl.github.io/ruby-hammerhead/)
 
-A template repo for setting up your own Sphinx/ablog website using the Pydata Sphinx Theme.
+Getting yourself setup with Sphinx and ablog is pretty straight-forward using this repo!
 
-This repo was made so people could easily get started using Sphinx and ablog to hot their own website, on GitHub pages,
-Azure Storage, or a static hosting service of their choice. This repo is part of a series of blog posts I wrote on how to build your website and publish it using Azure DevOps and Azure Storage.
+By default this installation will get you setup with a reStructuredText and Markdown parser, an extension for creating panels, grids, dropdowns and more, an extension so users can easily copy and paste your code snippets, as well as extension to generate `OpenGraph metadata <https://ogp.me/>`_. For more information about each of these components' checkout the `References </references/>`_.
 
 ## Built With
 
@@ -49,37 +47,57 @@ Azure Storage, or a static hosting service of their choice. This repo is part of
 * [reStructuredText Primer](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
 * [ablog Documentation](https://ablog.readthedocs.io/)
 * [Pydata Documentation](https://pydata-sphinx-theme.readthedocs.io/en/latest/)
-* [Sphinx Panels Documentation](https://sphinx-panels.readthedocs.io/en/latest/)
+* [Sphinx Design Documentation](https://sphinx-design.readthedocs.io/)
 
 <!-- GETTING STARTED -->
 # Getting Started
 
-To get a local copy up and running follow these simple steps.
+The first thing you'll need to do is clone this repository locally using Git:
 
-This is an example of how to list things you need to use the software and how to install them.
-
-1. Clone the repo
-```sh
+```shell
 git clone https://github.com/errbufferoverfl/ruby-hammerhead.git
 ```
-2. Install pip packages
+
+Next you'll need to install all the dependencies which are managed by Pipenv.
+
+**Tip:** Ruby Hammerhead uses Python 3.9, if you are using multiple versions of Python, I'd recommend checking out [asdf](https://github.com/asdf-vm/asdf) an extendable version manager with support for Python, Ruby, Node.js, Elixir, Erlang & more.
+
 ```sh
 pipenv install
 ```
-3. Run the default installation
+
+Run the default build, which will create a website that looks exactly like [the demo site](https://errbufferoverfl.github.io/ruby-hammerhead/).
+
 ```sh
 ablog build && ablog serve
 ```
-4. Customise the `about.html` file located in `_templates` directory and replace the `logo.png` file with a picture you
-like. If the name is different make sure to update this in the `about.html` file as well!
 
-5. While developing your website, I recommend running `ablog clean` before building and serving to make sure you don't accidentally capture artifacts.
-```sh
+**Warning:** Many of the files located in kitchen sink include broken references, citations and hyperlinks to demonstrate what things will look like if incorrectly configured. If you're running your build for the first time and haven't deleted this directory, you can expect the following errors:
+
+```text
+/ruby-hammerhead/kitchen-sink/paragraph-level-markup.rst:264: WARNING: Footnote [4] is not referenced.
+/ruby-hammerhead/kitchen-sink/paragraph-level-markup.rst:270: WARNING: Footnote [11] is not referenced.
+/ruby-hammerhead/kitchen-sink/paragraph-level-markup.rst:15: WARNING: Undefined substitution referenced: "problematic".
+/ruby-hammerhead/kitchen-sink/paragraph-level-markup.rst:264: WARNING: Unknown target name: "5".
+/ruby-hammerhead/kitchen-sink/paragraph-level-markup.rst:307: WARNING: Unknown target name: "body elements".
+/ruby-hammerhead/kitchen-sink/paragraph-level-markup.rst:318: WARNING: Unknown target name: "hyperlink reference without a target".
+/ruby-hammerhead/kitchen-sink/paragraph-level-markup.rst:278: WARNING: citation not found: nonexistent
+```
+
+<!-- MAKING CHANGES -->
+## Making Changes
+
+While developing your blog & making changes, I recommend running `ablog clean` before building and serving to make sure you don't accidentally capture artifacts.
+
+```shell
 ablog clean && ablog build && ablog serve
 ```
-6. Once you're happy with everything you can safely remove the following files and directories:
-* imgs/
-* README.md
+
+You can also run `ablog clean -D` which does a deep clean, removing cached environment and doctree files.
+
+```shell
+ablog clean -D && ablog build && ablog serve
+```
 
 <!-- ACKNOWLEDGEMENTS -->
 # Acknowledgements
@@ -100,4 +118,4 @@ ablog clean && ablog build && ablog serve
 [license-url]: https://github.com/errbufferoverfl/ruby-hammerhead/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/errbufferoverfl
-[product-screenshot]: imgs/screenshot.png
+[product-screenshot]: images/screenshot.png

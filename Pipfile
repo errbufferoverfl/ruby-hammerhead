@@ -7,7 +7,10 @@ name = "pypi"
 sphinx = "*"
 ablog = "*"
 pydata-sphinx-theme = "*"
-sphinx-panels = "*"
+sphinx-design = "*"
+sphinx-copybutton = "*"
+sphinxext-opengraph = "*"
+myst-parser = "*"
 
 [dev-packages]
 

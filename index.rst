@@ -1,20 +1,33 @@
 
 Recent Posts
-===========================================
+=============
 
 .. toctree::
-    :maxdepth: 2
-    :caption: Recent Posts
+    :name: mastertoc
+    :caption: Contents
+    :titlesonly:
     :hidden:
 
-    aboutme
-    timeline
-    tab
-    references
+    Demo Blog <posts.rst>
+    Getting Started <getting-started.rst>
+    references.rst
+    changelog.rst
+
+.. toctree::
+    :name: kitchen-sink
+    :caption: Kitchen Sink
+    :titlesonly:
+    :hidden:
+
+    About the Kitchen Sink <kitchen-sink/index.rst>
+    Paragraph Level Markup <kitchen-sink/paragraph-level-markup.rst>
+    Lists & Tables <kitchen-sink/lists-and-tables.rst>
+    Really Long Page <kitchen-sink/long.md>
+    Structural Elements <kitchen-sink/structure.rst>
+    Sphinx Design <kitchen-sink/sphinx-design.md>
 
 .. postlist:: 10
-   :author: errbufferoverfl
    :date: %Y-%m-%d
-   :format: {date} - {title}
+   :format: {date}: {title}
    :list-style: none
    :excerpts:
